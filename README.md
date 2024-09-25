@@ -27,6 +27,7 @@ https://github.com/user-attachments/assets/faae44f3-ee8a-4e68-9646-a0ed5aa38168
 ### Run MAC-VO for experiment
 
 * Download a demo sequence through [drive](https://drive.google.com/file/d/1kCTNMW2EnV42eH8g2STJHcVWEbVKbh_r/view?usp=sharing) and the pre-trained model for [front-end model](https://github.com/MAC-VO/MAC-VO/releases/download/Weight-Release/MACVO_FrontendCov.pth) and [posenet model](https://github.com/MAC-VO/MAC-VO/releases/download/model/MACVO_posenet.pkl)
+* Remember to change the path in the config file
 
 * **Run MAC-VO on a single sequence**
 
@@ -41,7 +42,7 @@ https://github.com/user-attachments/assets/faae44f3-ee8a-4e68-9646-a0ed5aa38168
   Example Usages (See More)
   </summary>
 
-  - Run MAC-VO in full form (*Ours* method):
+  - Run MAC-VO (*Ours* method):
     ```bash
     $ python MACVO.py --odom ./Config/Experiment/MACVO/MACVO.yaml --data ./Config/Sequence/TartanAir_abandonfac_001.yaml
     ```
